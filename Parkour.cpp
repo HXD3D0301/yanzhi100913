@@ -556,13 +556,13 @@ int main()
 }
 void zym()
 {
-   // //yanse(240);
+   
     char s;
     system("cls");
 	color_qing();
 	cout<<dts;
     gs(5, 26, "简单跑酷  [闫执出品]");
-  //  gs(4, 27, "[闫执出品]");
+  
     gs(2, 0, "");
     color_hui();
     gs(1, 30, "退出");
@@ -672,17 +672,17 @@ void zym()
     switch (s)
     {
     case '0':
-//        if (MessageBox(0, "确定退出？", "系统", MB_YESNO) == IDYES)
-//        {
+
+
             cxjs = 0;
             MessageBox(0, "再见！\n\n制作：闫执", "系统", MB_OK);
             return;
-//        }
-//        else
-//        {
-//            //yanse(240);
-//            system("cls");
-//        }
+
+
+
+
+
+
         break;
     case '1':
         yxym();
@@ -692,7 +692,7 @@ void zym()
         break;
     case '3':
         cddx.out(cgjd, "闯关进度.binggan");
-//        MessageBox(0, "存档成功", "系统", MB_OK);
+
         break;
     }
     return;
