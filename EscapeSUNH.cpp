@@ -42,7 +42,7 @@ void jj_xiuru()
 	cout << "                                              " << endl;
 	cout << "         _____________________                " << endl;
 	cout << "         |                   |                " << endl;
-	cout << "         |     游戏失败！    |                " << endl;
+	cout << "         |     游戏失败！     |                " << endl;
 	cout << "         |___________________|                " << endl;
 	cout << "                                              " << endl;
 	cout << "         你被孙老师狠狠地羞辱了...            " << endl;
@@ -344,6 +344,7 @@ int main()
 		cout << "请输入你的意见...   " << endl;
 		cin >> a;
 		cout << "闫执听不见！" << endl;
+		cout<<"p.s. qq:3963152126"
 	}
 
 	return 0;
